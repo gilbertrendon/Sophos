@@ -68,3 +68,48 @@ public class TestJose{
 //       System.out.println("Sum of x+y = " + z);
 //     }
 // }
+
+
+---------------------------------------------------------------------------------------
+select department_name, count(A.id) from APPX_employee as A
+INNER JOIN APPX_department as B
+ON A.department_id = B.id
+
+
+for(int i = 0; i < 100; i++) 
+
+
+public static void main (String args[]) {
+  // Your code here
+  //int matriz[][] = new int[1][8];
+  int len = n;
+  Boolean symetric = true;
+  //System.out.println(n);
+	for(int j=0;j<len;j++){
+		if((myArray[j] == myArray[len-1])&&(j<=len-1)){
+			symetric = true;
+		}else{
+			symetric = false;
+		}
+	}
+  if(symetric == true){
+  	System.out.println("Symetric");
+  }else{
+  	System.out.println("No symetric");
+  }
+}
+
+
+-----------------------------
+public static void main (String args[]) {
+   // Your code here
+  int len = myArray.length;
+	for(int i=0;i<len;i++){
+		for(int j=i+1;j<len;j++){
+			if(myArray[i] + myArray[j] == 10){
+				System.out.println(myArray[i]+" "+myArray[j]);
+			  	break;
+			}
+		}
+	}
+}
